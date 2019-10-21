@@ -8,7 +8,7 @@ const DYNAMIC_CACHE     = 'dynamic-v2';
 
 // APP_SHELL's
 const APP_SHELL = [
-    '/',
+    //'/',
     'index.html',
     'js/sw-utils.js',
     'img/favicon.ico',
