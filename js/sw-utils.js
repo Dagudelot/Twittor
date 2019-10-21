@@ -13,7 +13,7 @@ function cleanCache( staticCache ){
 
 }
 
-function updateDynamicCache( dynamicCache ,req, res ){
+function updateDynamicCache( dynamicCache, req, res ){
 
     if( res.ok ){
         caches.open( dynamicCache ).then(cache => {
