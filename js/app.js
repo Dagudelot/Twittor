@@ -1,6 +1,14 @@
 // Service Worker
+const url = window.location.href;
+const SwLocation = '/twittor/sw.js';
+
 if( navigator.serviceWorker ){
-    navigator.serviceWorker.register('./sw.js');
+
+    if( url.includes( 'localhost' ) ){
+        SwLocation = '/sw.js';
+    }
+
+    navigator.serviceWorker.register( SwLocation );
 }
 
 
