@@ -1,6 +1,6 @@
 // Service Worker
 const url = window.location.href;
-var SwLocation = '/twittor/sw.js';
+var SwLocation = '/Twittor/sw.js';
 
 if( navigator.serviceWorker ){
 
